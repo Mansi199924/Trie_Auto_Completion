@@ -10,7 +10,7 @@ struct trienode
 trienode* get_new_node()
 {
     trienode* temp = new trienode;
-    temp->is_word = false;
+    temp->is_word = true;
 
     for(int i=0;i<26;i++)
     {
