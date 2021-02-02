@@ -4,7 +4,7 @@ using namespace std;
 struct trienode
 {
     bool is_word;
-    trienode* child[24];
+    trienode* child[26];
 };
 
 trienode* get_new_node()
